@@ -1,0 +1,50 @@
+nav {
+    background-color: #F2C94C;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    margin: auto;
+}
+
+.input-text {
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.output {
+    border: 3px solid #f2c94c;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #F2C94C;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.about {
+    font-size: 2rem;
+}
+
+.btn-translate {
+    background-color: #f2c94c;
+    color: #4A4A4A;
+    font-size: 1.5rem;
+    border: none;
+    padding: .7rem 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn-translate:hover {
+    transform: translateY(-3px) scale(1.1);
+    outline: none;
+}
