@@ -3,45 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style1.css">
     <title>Banana Talk</title>
 </head>
 <body>
-    <nav>
+    <header>
         <div>
             Banana Talk
         </div>
-    </nav>
-    <div class="container mt-4">
-        <div class="columns">
-            <div class="column"></div>
-            <div class="column is-half">
-                <textarea class="textarea" placeholder="Enter your text" rows="4" cols="50"></textarea>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-1-of-3">
+                <textarea class="textarea" placeholder="Enter your text" rows="20" cols="50"></textarea>
             </div>
-            <div class="column"></div>
-        </div>
-    </div>
-    <div class="container has-text-centered mt-6">
-        <button class="btn-translate">Translate Text</button>
-    </div>
-    <div class="container has-text-centered mt-6">
-        <div class="conatainer mb-3">
-            Translated Text Will Appear Here
-        </div>
-        <div class="columns">
-            <div class="column"></div>
-            <div class="column is-half output">
-                
+            <div class="col-1-of-3">
+                <button class="btn-translate">Translate Text</button>
             </div>
-            <div class="column"></div>
+            <div class="col-1-of-3">
+                <div class="output">
+                        Translated Text Will Appear Here
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
     <footer>
         <div class="about">
             About
         </div>
-            Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.
+            Are you a fan of minions? Did you know that the gibberish they say is an actual language.<br> Use the translator to convert your text from English to Minion speak or Banana language.<br> Have Fun!!!
     </footer>
     <script src="index.js"></script>
 </body>

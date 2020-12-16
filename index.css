@@ -1,13 +1,16 @@
-nav {
+header {
     background-color: #F2C94C;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
+    margin-bottom: 10rem;
     text-align: center;
 }
 
 main {
+    margin-top: 3rem;
     padding: 1rem;
     margin: auto;
+    height: 50rem;
 }
 
 .input-text {
@@ -18,30 +21,33 @@ main {
 .output {
     border: 3px solid #f2c94c;
     font-size: 1.5rem;
+    height: 15rem;
 }
 
 footer {
     background-color: #F2C94C;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
-    position: fixed;
-    bottom: 0;
 }
 
 .about {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 
 .btn-translate {
     background-color: #f2c94c;
     color: #4A4A4A;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: none;
-    padding: .7rem 1.2rem;
+    padding: 2rem 4rem;
     border-radius: 30px;
     cursor: pointer;
+    margin: 0 auto;
     transition: all .2s;
+    position: relative;
+    margin-left: 5rem;
+
 }
 
 .btn-translate:hover {
